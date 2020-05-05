@@ -2,7 +2,6 @@
   "name": "ecmascript2015-fast-course",
   "version": "1.0.0",
   "description": "A simple bunch of examples used as an overview about ES6 (ECMAScript 2015)",
-  "main": "index.js",
   "scripts": {
     "start": "nodemon",
     "lint": "eslint"
@@ -24,6 +23,8 @@
   "homepage": "https://github.com/Especializa/es6#readme",
   "devDependencies": {
     "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "nodemon": "^1.11.0"
   }
 }
